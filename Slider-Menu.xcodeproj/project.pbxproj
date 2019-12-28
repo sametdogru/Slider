@@ -13,6 +13,8 @@
 		366F0DA923AFAE5C0015A228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366F0DA723AFAE5C0015A228 /* Main.storyboard */; };
 		366F0DAB23AFAE5D0015A228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366F0DAA23AFAE5D0015A228 /* Assets.xcassets */; };
 		366F0DAE23AFAE5D0015A228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366F0DAC23AFAE5D0015A228 /* LaunchScreen.storyboard */; };
+		366F0DB623AFAEC40015A228 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F0DB523AFAEC40015A228 /* MenuViewController.swift */; };
+		366F0DB823AFB4210015A228 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F0DB723AFB4210015A228 /* SlideInTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		366F0DAA23AFAE5D0015A228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366F0DAD23AFAE5D0015A228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366F0DAF23AFAE5D0015A228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366F0DB523AFAEC40015A228 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		366F0DB723AFB4210015A228 /* SlideInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				366F0DA123AFAE5C0015A228 /* AppDelegate.swift */,
 				366F0DA323AFAE5C0015A228 /* SceneDelegate.swift */,
 				366F0DA523AFAE5C0015A228 /* ViewController.swift */,
+				366F0DB523AFAEC40015A228 /* MenuViewController.swift */,
+				366F0DB723AFB4210015A228 /* SlideInTransition.swift */,
 				366F0DA723AFAE5C0015A228 /* Main.storyboard */,
 				366F0DAA23AFAE5D0015A228 /* Assets.xcassets */,
 				366F0DAC23AFAE5D0015A228 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				366F0DA623AFAE5C0015A228 /* ViewController.swift in Sources */,
 				366F0DA223AFAE5C0015A228 /* AppDelegate.swift in Sources */,
 				366F0DA423AFAE5C0015A228 /* SceneDelegate.swift in Sources */,
+				366F0DB623AFAEC40015A228 /* MenuViewController.swift in Sources */,
+				366F0DB823AFB4210015A228 /* SlideInTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Slider-Menu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Slider-Menu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
