@@ -14,10 +14,9 @@ class ViewController: UIViewController {
 	var topView: UIView?
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+		
 	}
-	
-	
+
 	@IBAction func didTapMenu(_ sender: UIBarButtonItem) {
 		guard let menuViewController = storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as? MenuViewController else { return }
 		menuViewController.didTapMenuType = { menuType in
@@ -57,8 +56,6 @@ extension ViewController: UIViewControllerTransitioningDelegate {
 		transiton.isPresenting = true
 		return transiton
 	}
-	
-	
 	
 	func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
 		transiton.isPresenting = false
